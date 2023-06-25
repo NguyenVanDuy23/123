@@ -65,15 +65,11 @@
                             <font style="vertical-align: inherit;"><i class="bi-bag"></i> Mua Sắm</font>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="dropdown05">
-                            <a class="dropdown-item" href="danh-muc.htm">
-                                <i class="bi bi-list"></i> Danh Mục
-                            </a>
+                            
                             <a class="dropdown-item" href="san-pham.htm">
                                 <i class="bi bi-tags"></i> Sản Phẩm
                             </a>
-                            <a class="dropdown-item" href="thuong-hieu.htm">
-                                <i class="bi bi-apple"></i> Thương Hiệu
-                            </a>
+                           
                             <a class="dropdown-item" href="gio-hang.htm">
                                 <i class="bi-cart-check"></i> Giỏ Hàng
                             </a>
@@ -130,59 +126,48 @@
     <main class="container">
         <!-- Đang xây dựng trang đăng nhập... -->
         <!-- https://preview.colorlib.com/theme/bootstrap/login-form-18/ -->
-
+       
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://preview.colorlib.com/theme/bootstrap/login-form-18/css/style.css">
-
+        <link href="dangnhap.css" rel="stylesheet">
         <section class="ftco-section">
+            <title>Đăng Nhập</title>
+        </head>
+        <body>
+           <div class="box">
             <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-6 text-center mb-5">
-                        <h2 class="heading-section">Login Form #08</h2>
-                    </div>
+                <div class="top">
+                    <span>Have an account?</span>
+                    <header>Login</header>
                 </div>
-                <div class="row justify-content-center">
-                    <div class="col-md-6 col-lg-5">
-                        <div class="login-wrap p-4 p-md-5">
-                            <div class="icon d-flex align-items-center justify-content-center">
-                                <span class="fa fa-user-o"></span>
-                            </div>
-                            <h3 class="text-center mb-4">Have an account?</h3>
-                            <form action="#" class="login-form">
-                                <div class="form-group">
-                                    <input type="text" class="form-control rounded-left" placeholder="Username"
-                                        required>
-                                </div>
-                                <div class="form-group d-flex">
-                                    <input type="password" class="form-control rounded-left" placeholder="Password"
-                                        required>
-                                </div>
-                                <div class="form-group d-md-flex">
-                                    <div class="w-50">
-                                        <label class="checkbox-wrap checkbox-primary">Remember Me
-                                            <input type="checkbox" checked>
-                                            <span class="checkmark"></span>
-                                        </label>
-                                    </div>
-                                    <div class="w-50 text-md-right">
-                                        <a href="#">Forgot Password</a>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <button type="submit" class="btn btn-primary rounded submit p-3 px-5">
-                                        by ColorLib
-                                    </button>
-                                </div>
-                            </form>
-                        </div>
+                <div class="input-field">
+                    <input type="text" class="input" placeholder="Username" id="">
+                    <i class='bx bx-user' ></i>
+                </div>
+                <div class="input-field">
+                    <input type="Password" class="input" placeholder="Password" id="">
+                    <i class='bx bx-lock-alt'></i>
+                </div>
+                <div class="input-field">
+                    <input type="submit" class="submit" value="Login" id="">
+                </div>
+                <div class="two-col">
+                    <div class="one">
+                       <input type="checkbox" name="" id="check">
+                       <label for="check"> Remember Me</label>
+                    </div>
+                    <div class="two">
+                        <label><a href="#">Forgot password?</a></label>
                     </div>
                 </div>
             </div>
+        </div>  
+        </body>
         </section>
     </main>
     <footer class="container" style="text-align: center;">
         <hr style="border: 1px solid gray;">
-        <span>&copy; 2022. Web Cá Nhân</span>
+        <span>&copy; 2023. Web Cá Nhân</span>
     </footer>
 
     <!-- Cài đặt bs4-js -->
@@ -192,6 +177,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
         crossorigin="anonymous"></script>
+        
 </body>
 
 </html>

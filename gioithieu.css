@@ -1,0 +1,28 @@
+<style>
+
+.container_swap{
+
+width: 400px;
+
+}
+
+.div_left{
+
+width: 600px;
+height: 400px;
+float: right;
+
+text-align: center;
+
+}
+
+.div_right{
+
+width: 200px;
+
+
+text-align: center;
+
+}
+
+</style>
